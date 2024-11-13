@@ -57,4 +57,19 @@ elif scelta == 2:
             n-=1
         if primo:
             print(numero)
-
+        
+# legge una sequenza di numeri interi (fino ad una stringa vuota) e che, dopo ogni nuova acquisizione, calcoli e visualizzi solamente i numeri adiacenti duplicati.    
+elif scelta == 3:
+    numeri = []
+    duplicati = []
+    while True:
+        str = input("numero: ")
+        if str=="":
+            break
+        numero = int(str)
+        numeri.append(numero)
+        if len(numeri)>1 and numeri[-1]==numeri[-2]:
+            duplicati.append(numero)
+        elif len(duplicati) >0:
+            print(duplicati[0])
+            duplicati = []
