@@ -48,6 +48,3 @@ if partenza==0: #parte prima l'utente
             print("il computer ha perso!")
         #computer
         num_biglie = computer(num_biglie)
-        
-        
-
