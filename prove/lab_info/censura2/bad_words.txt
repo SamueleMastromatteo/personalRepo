@@ -1,0 +1,3 @@
+droga
+sesso
+C++
