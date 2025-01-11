@@ -1,0 +1,5 @@
+sesso
+droga
+C++
+negri
+terroni
